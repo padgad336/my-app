@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
         <>
-            <div style={{ color: 'white' }}>
+            <div style={{}}>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'space-around',
