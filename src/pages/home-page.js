@@ -45,7 +45,7 @@ const Home = () => {
                 <h1>Print Of SongKla University</h1>
                 <h2>Bachelor of Science </h2>
                 <h3>Computer Science </h3>
-                <img alt="ddd" style={{ width: '500px' }} src="./cat.png" />
+                <img alt="ddd" style={{ width: '500px' ,filter: "drop-shadow(0px 0px 15px #000)"}} src="./cat.png" />
             </div>
             <div  style={{ color: 'black', margin: '80px' }}>
                 <h1 id="profile">ประวัติส่วนตัว</h1>

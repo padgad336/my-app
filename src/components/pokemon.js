@@ -28,7 +28,9 @@ const Pokemon = ({ name, image, species, type, id }) => {
                     transition: 'background 0.8s',
                     backgroundSize: isHover ? '500px' : '192px',
                     backgroundRepeat: "no-repeat",
-                    backgroundPosition: isHover ? 'left' : 'center',
+                    backgroundPosition: isHover ? 'right 53% bottom 86%' : 'center',
+                    backgroundBlendMode: isHover ? 'multiply;' : 'normal',
+                    backdropFilter:"blur(12px)",
                     borderRadius: '20px',
                     position: 'relative',
                     boxShadow: "0 70px 60px -60px #000"
