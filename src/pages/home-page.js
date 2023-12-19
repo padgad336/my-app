@@ -29,7 +29,7 @@ const Home = () => {
             <a href="#profile">ประวัติส่วนตัว</a>
             <a href="#experience">ประสบการณ์ทำงาน</a>
             <a href="#arch">รางวัลและเกียรติประวัติ</a>
-            <a href="#text">ภาษาที่เขียนได้</a>
+            <a href="#tech">ภาษาที่เขียนได้</a>
             <a href="#education">การศึกษา</a>
             <Link to="/list">โปเกมอน</Link>
           </div>
@@ -63,7 +63,7 @@ const Home = () => {
                 </p>
             </div>
             <div style={{ color: 'black', margin: '80px', fontFamily: 'Kanit' }}>
-                <h1 id="text">ภาษาที่ฉันเขียนได้</h1>
+                <h1 id="tech">ภาษาที่ฉันเขียนได้</h1>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'space-around',
